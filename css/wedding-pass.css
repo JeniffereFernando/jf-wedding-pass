@@ -47,34 +47,31 @@ body{
 }
 
 /* marca d'água */
+
 .pass::before{
 
-    content:"J ♥ F";
+    content:"";
 
     position:absolute;
 
-    left:50%;
-    top:52%;
+    inset:0;
 
-    transform:
-    translate(-50%,-50%);
+    background:url("../assets/monograma.png") center center no-repeat;
 
-    font-family:"Playfair Display",serif;
+    background-size:260px;
 
-    font-size:140px;
-
-    color:rgba(109,128,97,.06);
-
-    font-weight:700;
+    opacity:.035;
 
     pointer-events:none;
+
+    z-index:0;
 
 }
 
 .pass>*{
 
     position:relative;
-    z-index:2;
+    z-index:1;
 
 }
 
@@ -98,29 +95,20 @@ body{
 
     align-items:center;
 
-    gap:10px;
+    margin-bottom:8px;
 
 }
 
-.letra{
+   .monograma img{
 
-    font-family:"Playfair Display",serif;
+    width:150px;
 
-    font-size:42px;
+    height:auto;
 
-    color:#6D8061;
-
-    font-weight:700;
+    display:block;
 
 }
 
-.coracao{
-
-    color:#B08A4A;
-
-    font-size:18px;
-
-}
 
 .linha-dourada{
 
