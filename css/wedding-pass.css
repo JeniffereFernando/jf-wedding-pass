@@ -273,13 +273,13 @@ body{
 
 .cards{
 
-    margin-top:35px;
+    margin-top:30px;
 
     display:grid;
 
-    grid-template-columns:1fr;
+    grid-template-columns:repeat(2,1fr);
 
-    gap:18px;
+    gap:16px;
 
 }
 
@@ -289,9 +289,9 @@ body{
 
     align-items:center;
 
-    gap:18px;
+    gap:14px;
 
-    padding:18px 22px;
+    padding:16px;
 
     background:#FAF8F3;
 
@@ -314,9 +314,9 @@ body{
 
 .icone{
 
-    width:52px;
+    width:46px;
 
-    height:52px;
+    height:46px;
 
     border-radius:50%;
 
