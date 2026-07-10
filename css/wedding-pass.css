@@ -311,13 +311,13 @@ body{
 
 .icone{
 
-    width:42px;
+    width:54px;
    
-    height:42px;
+    height:54px;
 
     border-radius:50%;
 
-    background:#F2EEE6;
+    background:#F3EFE6;
 
     display:flex;
 
@@ -325,9 +325,9 @@ body{
 
     align-items:center;
 
-    color:#6D8061;
+    color:#B08A4A;
 
-    font-size:22px;
+    font-size:24px;
 
 }
 
