@@ -1,4 +1,95 @@
-/* ========= MONOGRAMA ========= */
+/* ===================================================
+   J&F WEDDING GUEST PASS
+   =================================================== */
+
+body{
+    margin:0;
+    padding:40px 20px;
+    background:#F5F2EC;
+    font-family:"Montserrat",sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.background{
+    position:fixed;
+    inset:0;
+    background:
+    radial-gradient(circle at top,#ffffff 0%,transparent 55%),
+    #F5F2EC;
+    z-index:-2;
+}
+
+.pass{
+
+    width:100%;
+    max-width:480px;
+
+    background:linear-gradient(
+    180deg,
+    #FFFFFF 0%,
+    #FCFBF8 100%);
+
+    border-radius:28px;
+
+    padding:42px;
+
+    box-shadow:
+    0 20px 60px rgba(0,0,0,.08);
+
+    border:1px solid #ECE8DE;
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+/* marca d'água */
+.pass::before{
+
+    content:"J ♥ F";
+
+    position:absolute;
+
+    left:50%;
+    top:52%;
+
+    transform:
+    translate(-50%,-50%);
+
+    font-family:"Playfair Display",serif;
+
+    font-size:140px;
+
+    color:rgba(109,128,97,.035);
+
+    font-weight:700;
+
+    pointer-events:none;
+
+}
+
+.pass>*{
+
+    position:relative;
+    z-index:2;
+
+}
+
+/* ==========================
+   Cabeçalho
+   ========================== */
+
+.pass-header{
+
+    text-align:center;
+
+    margin-bottom:38px;
+
+}
 
 .monograma{
 
@@ -8,15 +99,13 @@
 
     align-items:center;
 
-    gap:12px;
-
-    margin-bottom:12px;
+    gap:14px;
 
 }
 
 .letra{
 
-    font-family:"Playfair Display", serif;
+    font-family:"Playfair Display",serif;
 
     font-size:42px;
 
@@ -30,8 +119,443 @@
 
     color:#B08A4A;
 
+    font-size:18px;
+
+}
+
+.linha-dourada{
+
+    width:90px;
+
+    height:2px;
+
+    background:#C7A96D;
+
+    margin:18px auto;
+
+    border-radius:30px;
+
+}
+
+.pass-title{
+
+    letter-spacing:6px;
+
+    font-size:13px;
+
+    color:#777;
+
+    font-weight:600;
+
+    text-transform:uppercase;
+
+}
+
+.pass-local{
+
+    margin-top:18px;
+
+    color:#6D8061;
+
+    font-size:15px;
+
+}
+
+.pass-data{
+
+    margin-top:6px;
+
+    color:#B08A4A;
+
+    font-style:italic;
+
+    font-size:14px;
+
+}
+
+/* ==========================
+   Nome
+   ========================== */
+
+#nome{
+
+    margin:0;
+
+    text-align:center;
+
+    font-family:"Playfair Display",serif;
+
+    color:#56684F;
+
+    font-size:46px;
+
+    line-height:1.08;
+
+    letter-spacing:1px;
+
+    text-transform:uppercase;
+
+}
+
+/* ==========================
+   Status
+   ========================== */
+
+.status{
+
+    width:max-content;
+
+    margin:26px auto 0;
+
+    padding:12px 28px;
+
+    border-radius:50px;
+
+    background:#E9F6EC;
+
+    color:#2F7D43;
+
+    font-weight:700;
+
+    letter-spacing:1px;
+
+    box-shadow:
+    0 6px 20px rgba(47,125,67,.12);
+
+}
+/* ===================================================
+   DIVISÓRIAS
+   =================================================== */
+
+.bloco{
+
+    margin-top:38px;
+
+    padding-top:30px;
+
+    border-top:1px solid #E7E1D5;
+
+}
+
+.bloco h2{
+
+    margin:0 0 18px;
+
+    text-align:center;
+
+    font-family:"Playfair Display",serif;
+
     font-size:20px;
 
-    transform:translateY(2px);
+    color:#6D8061;
+
+    font-weight:600;
+
+}
+
+#autorizados{
+
+    text-align:center;
+
+    color:#666;
+
+    line-height:30px;
+
+    font-size:16px;
+
+}
+
+/* ===================================================
+   CARDS
+   =================================================== */
+
+.cards{
+
+    margin-top:35px;
+
+    display:grid;
+
+    grid-template-columns:1fr;
+
+    gap:18px;
+
+}
+
+.info-card{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+    padding:18px 22px;
+
+    background:#FAF8F3;
+
+    border:1px solid #ECE5D8;
+
+    border-radius:18px;
+
+    transition:.30s;
+
+}
+
+.info-card:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:
+    0 12px 30px rgba(0,0,0,.06);
+
+}
+
+.icone{
+
+    width:52px;
+
+    height:52px;
+
+    border-radius:50%;
+
+    background:#F2EEE6;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:22px;
+
+}
+
+.label{
+
+    display:block;
+
+    color:#6D8061;
+
+    font-size:13px;
+
+    text-transform:uppercase;
+
+    letter-spacing:1px;
+
+    margin-bottom:6px;
+
+}
+
+.valor{
+
+    color:#444;
+
+    font-size:16px;
+
+    font-weight:600;
+
+}
+
+/* ===================================================
+   PASS ID
+   =================================================== */
+
+footer{
+
+    margin-top:42px;
+
+    padding-top:28px;
+
+    border-top:1px solid #E7E1D5;
+
+    text-align:center;
+
+}
+
+.pass-id{
+
+    color:#A78D5A;
+
+    font-size:12px;
+
+    letter-spacing:4px;
+
+    text-transform:uppercase;
+
+}
+
+.pass-id span{
+
+    display:block;
+
+    margin-top:12px;
+
+    font-size:28px;
+
+    color:#56684F;
+
+    font-family:"Playfair Display",serif;
+
+    letter-spacing:2px;
+
+}
+
+/* ===================================================
+   MENSAGEM
+   =================================================== */
+
+.mensagem{
+
+    margin-top:22px;
+
+    color:#777;
+
+    font-size:14px;
+
+    line-height:24px;
+
+    font-style:italic;
+
+}
+/* ===================================================
+   QR CODE
+   =================================================== */
+
+.qr{
+
+    margin-top:35px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.qr img{
+
+    width:150px;
+
+    height:150px;
+
+    padding:10px;
+
+    background:white;
+
+    border-radius:18px;
+
+    border:1px solid #ECE5D8;
+
+    box-shadow:
+    0 10px 25px rgba(0,0,0,.06);
+
+}
+
+/* ===================================================
+   ANIMAÇÃO
+   =================================================== */
+
+.pass{
+
+    animation:fadeUp .8s ease;
+
+}
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(25px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/* ===================================================
+   RESPONSIVO
+   =================================================== */
+
+@media(max-width:520px){
+
+.pass{
+
+    padding:28px;
+
+}
+
+#nome{
+
+    font-size:34px;
+
+}
+
+.pass-title{
+
+    letter-spacing:4px;
+
+    font-size:11px;
+
+}
+
+.pass-id span{
+
+    font-size:22px;
+
+}
+
+.info-card{
+
+    padding:15px;
+
+}
+
+.icone{
+
+    width:44px;
+
+    height:44px;
+
+    font-size:20px;
+
+}
+
+.qr img{
+
+    width:130px;
+
+    height:130px;
+
+}
+
+}
+
+/* ===================================================
+   ACABAMENTO
+   =================================================== */
+
+::selection{
+
+    background:#6D8061;
+
+    color:white;
+
+}
+
+.pass:hover{
+
+    transform:translateY(-3px);
+
+    transition:.35s;
 
 }
