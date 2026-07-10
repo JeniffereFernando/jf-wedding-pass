@@ -2,99 +2,155 @@
 <html lang="pt-BR">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Convite</title>
+
+    <title>J&F Wedding Guest Pass</title>
 
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animations.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
 <div class="background"></div>
 
-<div class="container wedding-pass zoom">
+<main class="pass">
 
-    <div class="topo">
+    <header class="pass-header">
 
-    <div class="brasao">
-        J&F
-    </div>
+        <div class="monograma">
+            J&F
+        </div>
 
-    <div class="linha-topo"></div>
+        <div class="linha-dourada"></div>
 
-    <div class="titulo">
-        WEDDING PASS
-    </div>
+        <div class="pass-title">
+            WEDDING GUEST PASS
+        </div>
 
-    <div class="subtitulo">
-        04 Setembro 2026
-    </div>
+        <div class="pass-local">
+            Casa Bollela
+        </div>
 
-</div>
+        <div class="pass-data">
+            04 Setembro 2026
+        </div>
 
-    <h1 id="nome">
-        Carregando...
-    </h1>
+    </header>
 
-    <div id="status" class="status"></div>
+    <section>
 
-    <div class="linha"></div>
+        <h1 id="nome">
+            Carregando...
+        </h1>
 
-    <div class="secao">
+        <div id="status" class="status"></div>
 
-        <h3>Convidados autorizados</h3>
+    </section>
 
-        <p id="autorizados"></p>
+    <section class="bloco">
 
-    </div>
+        <h2>
+            Convidados autorizados
+        </h2>
 
-    <div class="linha"></div>
+        <div id="autorizados"></div>
 
-    <div class="info">
+    </section>
 
-    <div class="card-info">
-        <div class="icone">👥</div>
-        <div class="titulo-info">Pessoas</div>
-        <div class="valor-info" id="quantidade"></div>
-    </div>
+    <section class="cards">
 
-    <div class="card-info">
-        <div class="icone">📅</div>
-        <div class="titulo-info">Data</div>
-        <div class="valor-info">04/09/2026</div>
-    </div>
+        <div class="info-card">
 
-    <div class="card-info">
-        <div class="icone">🕠</div>
-        <div class="titulo-info">Horário</div>
-        <div class="valor-info">17h30</div>
-    </div>
+            <div class="icone">
+                👥
+            </div>
 
-    <div class="card-info">
-        <div class="icone">📍</div>
-        <div class="titulo-info">Local</div>
-        <div class="valor-info">Casa Bollela</div>
-    </div>
+            <span class="label">
+                Pessoas
+            </span>
 
-</div>
+            <span id="quantidade" class="valor"></span>
 
-    <div class="linha"></div>
+        </div>
 
-    <div class="codigo">
+        <div class="info-card">
 
-        Código:
-        <span id="codigo"></span>
+            <div class="icone">
+                📅
+            </div>
 
-    </div>
+            <span class="label">
+                Data
+            </span>
 
-    <p id="mensagem"></p>
+            <span class="valor">
+                04/09/2026
+            </span>
 
-</div>
+        </div>
+
+        <div class="info-card">
+
+            <div class="icone">
+                🕠
+            </div>
+
+            <span class="label">
+                Horário
+            </span>
+
+            <span class="valor">
+                17h30
+            </span>
+
+        </div>
+
+        <div class="info-card">
+
+            <div class="icone">
+                📍
+            </div>
+
+            <span class="label">
+                Local
+            </span>
+
+            <span class="valor">
+                Casa Bollela
+            </span>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <div class="pass-id">
+
+            PASS ID
+
+            <span id="codigo"></span>
+
+        </div>
+
+        <div id="mensagem" class="mensagem"></div>
+
+    </footer>
+
+</main>
 
 <script src="js/convidado.js"></script>
 
 </body>
+
 </html>
