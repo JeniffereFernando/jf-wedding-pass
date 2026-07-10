@@ -18,14 +18,19 @@ async function carregarConvite() {
     }
 
     const convite = convidados[codigo];
+document.getElementById("nome").innerText = convite.nomeConvite;
 
-    document.getElementById("nome").innerText = convite.nomeConvite;
+document.getElementById("status").innerHTML =
+`<strong>Status:</strong> ${convite.status}`;
 
-    document.getElementById("autorizados").innerHTML = `
-        <strong>Convidados vinculados a este convite:</strong><br><br>
-        ${convite.convidados.join("<br>")}<br><br>
-        <strong>Quantidade autorizada:</strong> ${convite.quantidade}
-    `;
+document.getElementById("autorizados").innerHTML = `
+<strong>Convidados autorizados:</strong><br><br>
+${convite.convidados.join("<br>")}<br><br>
+<strong>Quantidade autorizada:</strong> ${convite.quantidade}
+`;
+
+document.getElementById("mensagem").innerHTML =
+`<em>${convite.mensagem}</em>`;
 
 }
 
