@@ -205,24 +205,26 @@ body{
 
 .status{
     display:flex;
-   
+
     justify-content:center;
-   
+
     align-items:center;
+
+    gap:12px;
 
     width:fit-content;
 
-    margin:26px auto 0;
+    margin:28px auto 0;
 
-    padding:12px 28px;
+    padding:14px 36px;
 
-    border-radius:50px;
+    background:#EAF7EE;
 
-    background:#E9F6EC;
+    border-radius:999px;
 
-    color:#2F7D43;
+    color:#2D8544;
 
-    font-weight:700;
+    font-weight:600;
 
     letter-spacing:1px;
 
