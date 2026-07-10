@@ -4,7 +4,13 @@ async function carregarConvite() {
     const convidados = await resposta.json();
 
     const parametros = new URLSearchParams(window.location.search);
-    const codigo = parametros.get("codigo");
+
+// Lê o código da URL e remove espaços em branco
+const codigo = (parametros.get("codigo") || "").trim();
+
+console.log("Código recebido:", codigo);
+console.log("Existe no JSON?", convidados[codigo]);
+console.log("Chaves do JSON:", Object.keys(convidados));
 
     if (!codigo || !convidados[codigo]) {
 
