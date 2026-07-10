@@ -4,7 +4,6 @@ async function carregarConvite() {
     const convidados = await resposta.json();
 
     const parametros = new URLSearchParams(window.location.search);
-
     const codigo = parametros.get("codigo");
 
     if (!codigo || !convidados[codigo]) {
@@ -20,10 +19,13 @@ async function carregarConvite() {
 
     const convite = convidados[codigo];
 
-    document.getElementById("nome").innerText = convite.nome;
+    document.getElementById("nome").innerText = convite.nomeConvite;
 
-    document.getElementById("autorizados").innerHTML =
-        convite.autorizados.join("<br>");
+    document.getElementById("autorizados").innerHTML = `
+        <strong>Convidados vinculados a este convite:</strong><br><br>
+        ${convite.convidados.join("<br>")}<br><br>
+        <strong>Quantidade autorizada:</strong> ${convite.quantidade}
+    `;
 
 }
 
