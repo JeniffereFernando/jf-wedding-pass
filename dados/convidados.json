@@ -1,8 +1,9 @@
 {
   "JF-001": {
-    "nome": "CONVIDADO TESTE",
-    "autorizados": [
+    "nomeConvite": "CONVIDADO TESTE",
+    "convidados": [
       "CONVIDADO TESTE"
-    ]
+    ],
+    "quantidade": 1
   }
 }
