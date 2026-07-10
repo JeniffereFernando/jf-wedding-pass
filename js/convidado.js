@@ -10,27 +10,32 @@ async function carregarConvite() {
 
         document.getElementById("nome").innerText = "Convite não encontrado";
 
-        document.getElementById("autorizados").innerText =
+        document.getElementById("status").innerHTML =
+            "<strong>Status:</strong> Inválido";
+
+        document.getElementById("autorizados").innerHTML =
             "Verifique o QR Code ou entre em contato com os noivos.";
 
-        return;
+        document.getElementById("mensagem").innerHTML = "";
 
+        return;
     }
 
     const convite = convidados[codigo];
-document.getElementById("nome").innerText = convite.nomeConvite;
 
-document.getElementById("status").innerHTML =
-`<strong>Status:</strong> ${convite.status}`;
+    document.getElementById("nome").innerText = convite.nomeConvite;
 
-document.getElementById("autorizados").innerHTML = `
-<strong>Convidados autorizados:</strong><br><br>
-${convite.convidados.join("<br>")}<br><br>
-<strong>Quantidade autorizada:</strong> ${convite.quantidade}
-`;
+    document.getElementById("status").innerHTML =
+        `<strong>Status:</strong> ${convite.status}`;
 
-document.getElementById("mensagem").innerHTML =
-`<em>${convite.mensagem}</em>`;
+    document.getElementById("autorizados").innerHTML = `
+        <strong>Convidados autorizados:</strong><br><br>
+        ${convite.convidados.join("<br>")}<br><br>
+        <strong>Quantidade autorizada:</strong> ${convite.quantidade}
+    `;
+
+    document.getElementById("mensagem").innerHTML =
+        `<em>${convite.mensagem}</em>`;
 
 }
 
