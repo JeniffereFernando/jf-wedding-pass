@@ -86,7 +86,7 @@ body{
 
     text-align:center;
 
-    margin-bottom:38px;
+    margin-bottom:28px;
 
 }
 
@@ -261,13 +261,14 @@ body{
 
 #autorizados{
 
-    text-align:center;
+    font-size:19px;
 
-    color:#666;
+    color:#5F5F5F;
 
-    line-height:30px;
+    line-height:1.9;
 
-    font-size:16px;
+    font-weight:500;
+
 
 }
 
@@ -295,7 +296,7 @@ body{
 
     gap:14px;
 
-    padding:16px;
+    padding:14px 18px;
 
     background:#FAF8F3;
 
@@ -318,9 +319,9 @@ body{
 
 .icone{
 
-    width:46px;
-
-    height:46px;
+    width:42px;
+   
+    height:42px;
 
     border-radius:50%;
 
@@ -340,13 +341,13 @@ body{
 
     display:block;
 
-    color:#6D8061;
+    color:#7A8A6E;
 
-    font-size:13px;
+    font-size:12px;
 
     text-transform:uppercase;
 
-    letter-spacing:1px;
+    letter-spacing:2px;
 
     margin-bottom:6px;
 
@@ -354,11 +355,11 @@ body{
 
 .valor{
 
-    color:#444;
-
-    font-size:16px;
+    font-size:18px;
 
     font-weight:600;
+
+    color:#404040;
 
 }
 
