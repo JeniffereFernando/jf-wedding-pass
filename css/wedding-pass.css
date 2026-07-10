@@ -1,1 +1,37 @@
+/* ========= MONOGRAMA ========= */
 
+.monograma{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:12px;
+
+    margin-bottom:12px;
+
+}
+
+.letra{
+
+    font-family:"Playfair Display", serif;
+
+    font-size:42px;
+
+    color:#6D8061;
+
+    font-weight:700;
+
+}
+
+.coracao{
+
+    color:#B08A4A;
+
+    font-size:20px;
+
+    transform:translateY(2px);
+
+}
