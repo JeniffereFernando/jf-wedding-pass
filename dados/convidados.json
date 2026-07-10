@@ -1,9 +1,14 @@
 {
   "JF-001": {
+    "codigo": "JF-001",
     "nomeConvite": "CONVIDADO TESTE",
     "convidados": [
       "CONVIDADO TESTE"
     ],
-    "quantidade": 1
+    "quantidade": 1,
+    "status": "confirmado",
+    "tipoConvite": "individual",
+    "mensagem": "Convite individual e intransferível.",
+    "checkIn": false
   }
 }
