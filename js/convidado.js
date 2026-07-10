@@ -29,20 +29,24 @@ console.log("Chaves do JSON:", Object.keys(convidados));
 
     const convite = convidados[codigo];
 
-    document.getElementById("nome").innerText = convite.nomeConvite;
+document.getElementById("nome").innerText = convite.nomeConvite;
 
-    document.getElementById("status").innerHTML =
-        `<strong>Status:</strong> ${convite.status}`;
+document.getElementById("status").innerHTML =
+    convite.status === "confirmado"
+        ? "🟢 CONFIRMADO"
+        : "🔴 CANCELADO";
 
-    document.getElementById("autorizados").innerHTML = `
-        <strong>Convidados autorizados:</strong><br><br>
-        ${convite.convidados.join("<br>")}<br><br>
-        <strong>Quantidade autorizada:</strong> ${convite.quantidade}
-    `;
+document.getElementById("autorizados").innerHTML =
+    convite.convidados.join("<br>");
 
-    document.getElementById("mensagem").innerHTML =
-        `<em>${convite.mensagem}</em>`;
+document.getElementById("quantidade").innerText =
+    convite.quantidade;
 
+document.getElementById("codigo").innerText =
+    convite.codigo;
+
+document.getElementById("mensagem").innerText =
+    convite.mensagem;
 }
 
 carregarConvite();
