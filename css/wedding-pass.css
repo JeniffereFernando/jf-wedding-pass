@@ -58,7 +58,7 @@ body{
 
     background:url("../assets/monograma.png") center center no-repeat;
 
-    background-size:260px;
+    background-size:320px;
 
     opacity:.035;
 
@@ -286,15 +286,17 @@ body{
 
     gap:14px;
 
-    padding:14px 18px;
+    padding:20px;
 
     background:#FAF8F3;
 
     border:1px solid #ECE5D8;
 
-    border-radius:18px;
+    border-radius:20px;
 
     transition:.30s;
+
+    justify-content:flex-start;
 
 }
 
@@ -339,7 +341,7 @@ body{
 
     letter-spacing:2px;
 
-    margin-bottom:6px;
+    margin-bottom:2px;
 
 }
 
