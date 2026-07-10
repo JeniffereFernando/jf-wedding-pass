@@ -119,3 +119,97 @@ button:hover{
     z-index:-1;
 
 }
+
+/* ========================= */
+/* WEDDING PASS */
+/* ========================= */
+
+.wedding-pass{
+    width:420px;
+    max-width:92%;
+    background:#ffffff;
+    border-radius:28px;
+    padding:45px 35px;
+    text-align:center;
+    box-shadow:0 25px 60px rgba(0,0,0,.10);
+}
+
+.topo{
+    margin-bottom:25px;
+}
+
+.brasao{
+    font-size:22px;
+    color:#6D8061;
+    font-weight:600;
+    letter-spacing:3px;
+}
+
+.titulo{
+    margin-top:8px;
+    font-size:14px;
+    letter-spacing:5px;
+    color:#8c8c8c;
+}
+
+.wedding-pass h1{
+    color:#6D8061;
+    font-size:54px;
+    line-height:1;
+    margin-bottom:20px;
+    text-transform:uppercase;
+}
+
+.status{
+    display:inline-block;
+    padding:8px 18px;
+    border-radius:30px;
+    background:#EAF5EA;
+    color:#2E7D32;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.linha{
+    height:1px;
+    background:#d9d9d9;
+    margin:25px 0;
+}
+
+.secao h3{
+    color:#6D8061;
+    margin-bottom:15px;
+    font-size:18px;
+}
+
+#autorizados{
+    line-height:1.8;
+}
+
+.info{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:18px;
+    text-align:left;
+}
+
+.info strong{
+    color:#6D8061;
+}
+
+.codigo{
+    font-size:15px;
+    letter-spacing:2px;
+    color:#777;
+}
+
+.codigo span{
+    font-weight:bold;
+    color:#6D8061;
+}
+
+#mensagem{
+    margin-top:25px;
+    font-style:italic;
+    color:#777;
+}
