@@ -135,21 +135,38 @@ button:hover{
 }
 
 .topo{
-    margin-bottom:25px;
+    text-align:center;
+    margin-bottom:35px;
 }
 
 .brasao{
-    font-size:22px;
+    font-family:"Playfair Display", serif;
+    font-size:34px;
     color:#6D8061;
-    font-weight:600;
-    letter-spacing:3px;
+    letter-spacing:8px;
+    font-weight:700;
+}
+
+.linha-topo{
+    width:90px;
+    height:1px;
+    background:#C8B68A;
+    margin:15px auto;
 }
 
 .titulo{
-    margin-top:8px;
-    font-size:14px;
-    letter-spacing:5px;
-    color:#8c8c8c;
+    font-size:13px;
+    letter-spacing:6px;
+    color:#8E8E8E;
+    font-weight:600;
+}
+
+.subtitulo{
+    margin-top:10px;
+    font-size:13px;
+    color:#B09B6B;
+    letter-spacing:2px;
+    font-style:italic;
 }
 
 .wedding-pass h1{
