@@ -523,37 +523,53 @@ footer{
    RESPONSIVO
    =================================================== */
 
-@media(max-width:520px){
+@media (max-width: 768px){
 
 .pass{
 
-    padding:28px;
+    width:95%;
+    padding:24px;
 
 }
 
 #nome{
 
-    font-size:34px;
+    font-size:38px;
+    line-height:1;
 
 }
 
 .pass-title{
 
     letter-spacing:4px;
-
     font-size:11px;
 
 }
 
+   .pass::before{
+
+    background-size:220px;
+
+}
+
+
 .pass-id span{
 
-    font-size:22px;
+    font-size:28px;
+
+}
+
+.cards{
+
+    grid-template-columns:1fr;
+
+    gap:16px;
 
 }
 
 .info-card{
 
-    padding:15px;
+    width:100%;
 
 }
 
@@ -572,6 +588,26 @@ footer{
     width:130px;
 
     height:130px;
+
+}
+
+   #qrcode{
+
+    padding:10px;
+
+}
+
+#qrcode canvas{
+
+    width:140px !important;
+    height:140px !important;
+
+}
+
+.qr-texto{
+
+    max-width:220px;
+    font-size:12px;
 
 }
 
