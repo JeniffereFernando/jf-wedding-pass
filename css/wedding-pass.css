@@ -268,13 +268,13 @@ body{
 
 .cards{
 
-    margin-top:30px;
+    margin-top:40px;
 
     display:grid;
 
     grid-template-columns:repeat(2,1fr);
 
-    gap:16px;
+    gap:20px;
 
 }
 
@@ -284,15 +284,15 @@ body{
 
     align-items:center;
 
-    gap:14px;
+    gap:18px;
 
-    padding:20px;
+    padding:22px;
 
     background:#FAF8F3;
 
     border:1px solid #ECE5D8;
 
-    border-radius:20px;
+    border-radius:22px;
 
     transition:.30s;
 
@@ -311,9 +311,9 @@ body{
 
 .icone{
 
-    width:54px;
-   
-    height:54px;
+    width:58px;
+
+    height:58px;
 
     border-radius:50%;
 
@@ -325,9 +325,29 @@ body{
 
     align-items:center;
 
+    flex-shrink:0;
+
     color:#B08A4A;
 
     font-size:24px;
+
+}
+
+.icone i{
+
+    font-size:24px;
+
+    color:#B08A4A;
+
+}
+
+.conteudo-card{
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
 
 }
 
@@ -335,15 +355,15 @@ body{
 
     display:block;
 
-    color:#7A8A6E;
+   color:#8C8F72;
 
-    font-size:12px;
+    font-size:13px;
 
     text-transform:uppercase;
 
     letter-spacing:2px;
-
-    margin-bottom:2px;
+   
+    margin-bottom:6px;
 
 }
 
@@ -351,9 +371,9 @@ body{
 
     font-size:18px;
 
-    font-weight:600;
+    font-weight:700;
 
-    color:#404040;
+    color:#444;
 
 }
 
