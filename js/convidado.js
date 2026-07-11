@@ -50,6 +50,21 @@ document.getElementById("codigo").innerText =
 
 document.getElementById("mensagem").innerText =
     convite.mensagem;
+
+    // Gera automaticamente o QR Code do convite
+
+document.getElementById("qrcode").innerHTML = "";
+
+const urlConvite = window.location.href;
+
+new QRCode(document.getElementById("qrcode"), {
+    text: urlConvite,
+    width: 180,
+    height: 180,
+    colorDark: "#56684F",
+    colorLight: "#ffffff",
+    correctLevel: QRCode.CorrectLevel.H
+});
 }
 
 carregarConvite();
