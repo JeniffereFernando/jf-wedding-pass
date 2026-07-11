@@ -580,3 +580,45 @@ footer{
     transition:.35s;
 
 }
+
+/* ==========================
+   QR CODE
+   ========================== */
+
+.qr{
+
+    margin-top:35px;
+
+    text-align:center;
+
+}
+
+.qr img{
+
+    width:150px;
+
+    height:150px;
+
+    padding:10px;
+
+    background:white;
+
+    border-radius:18px;
+
+    border:1px solid #ECE5D8;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.06);
+
+}
+
+.qr-texto{
+
+    margin-top:18px;
+
+    color:#777;
+
+    font-size:13px;
+
+    line-height:22px;
+
+}
