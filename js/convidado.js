@@ -45,6 +45,9 @@ document.getElementById("quantidade").innerText =
 document.getElementById("codigo").innerText =
     convite.codigo;
 
+    document.getElementById("qrcode").src =
+    `qrcodes/${convite.codigo}.png`;
+
 document.getElementById("mensagem").innerText =
     convite.mensagem;
 }
