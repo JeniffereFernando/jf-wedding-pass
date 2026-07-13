@@ -313,7 +313,7 @@
     "nomeConvite": "LORRAYNE ARAUJO",
     "convidados": [
       "LORRAYNE ARAUJO",
-      "WILLIAM SOARES"
+      "WILLIAN SOARES"
     ],
     "quantidade": 2,
     "status": "confirmado",
@@ -400,10 +400,10 @@
   },
   "JF-032": {
     "codigo": "JF-032",
-    "nomeConvite": "VELA LUCIA",
+    "nomeConvite": "VERA LUCIA",
     "convidados": [
-      "VELA LUCIA",
-      "JOSÉ"
+      "VERA LUCIA",
+      "JOSE"
     ],
     "quantidade": 2,
     "status": "confirmado",
