@@ -670,11 +670,10 @@
     "nomeConvite": "JULYANA MACEDO",
     "convidados": [
       "JULYANA MACEDO",
-      "ANDRE MONTEIRO"
     ],
-    "quantidade": 2,
+    "quantidade": 1,
     "status": "confirmado",
-    "tipoConvite": "casal",
+    "tipoConvite": "individual",
     "mensagem": "Convite nominal e intransferível.",
     "checkIn": false
   },
