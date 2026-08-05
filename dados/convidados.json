@@ -688,42 +688,4 @@
     "tipoConvite": "individual",
     "mensagem": "Convite nominal e intransferível.",
     "checkIn": false
-  },
-"JF-055": {
-    "codigo": "JF-055",
-    "nomeConvite": "RENATO DAMÁSIO",
-    "convidados": [
-        "RENATO DAMÁSIO",
-        "HALESSANDRA ANTUNES"
-    ],
-    "quantidade": 2,
-    "status": "confirmado",
-    "tipoConvite": "casal",
-    "mensagem": "Convite nominal e intransferível.",
-    "checkIn": false
-},
-  "JF-056": {
-    "codigo": "JF-056",
-    "nomeConvite": "DIVINO ARAUJO",
-    "convidados": [
-        "DIVINO ARAUJO",
-        "KEILA ARAUJO"
-    ],
-    "quantidade": 4,
-    "status": "confirmado",
-    "tipoConvite": "família",
-    "mensagem": "Convite nominal e intransferível.",
-    "checkIn": false
-},
-  "JF-057": {
-    "codigo": "JF-057",
-    "nomeConvite": "EUNICE BEZERRA",
-    "convidados": [
-        "EUNICE BEZERRA"
-    ],
-    "quantidade": 1,
-    "status": "confirmado",
-    "tipoConvite": "individual",
-    "mensagem": "Convite nominal e intransferível.",
-    "checkIn": false
-}
+  }
