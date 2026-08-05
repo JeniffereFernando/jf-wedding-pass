@@ -690,7 +690,7 @@
     "checkIn": false
   },
 "JF-055": {
-    "código": "JF-055",
+    "codigo": "JF-055",
     "nomeConvite": "RENATO DAMÁSIO",
     "convidados": [
         "RENATO DAMÁSIO",
@@ -700,10 +700,10 @@
     "status": "confirmado",
     "tipoConvite": "casal",
     "mensagem": "Convite nominal e intransferível.",
-    "check-in": false
+    "checkIn": false
 },
   "JF-056": {
-    "código": "JF-056",
+    "codigo": "JF-056",
     "nomeConvite": "DIVINO ARAUJO",
     "convidados": [
         "DIVINO ARAUJO",
@@ -713,10 +713,10 @@
     "status": "confirmado",
     "tipoConvite": "família",
     "mensagem": "Convite nominal e intransferível.",
-    "check-in": false
+    "checkIn": false
 },
   "JF-057": {
-    "código": "JF-057",
+    "codigo": "JF-057",
     "nomeConvite": "EUNICE BEZERRA",
     "convidados": [
         "EUNICE BEZERRA"
@@ -725,5 +725,5 @@
     "status": "confirmado",
     "tipoConvite": "individual",
     "mensagem": "Convite nominal e intransferível.",
-    "check-in": false
+    "checkIn": false
 }
