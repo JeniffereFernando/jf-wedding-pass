@@ -1,7 +1,12 @@
 async function carregarConvite() {
 
-    const resposta = await fetch("dados/convidados.json");
-    const convidados = await resposta.json();
+   const resposta = await fetch("dados/convidados.json?v=" + Date.now());
+
+if (!resposta.ok) {
+    throw new Error("Não foi possível carregar convidados.json");
+}
+
+const convidados = await resposta.json();
 
     const parametros = new URLSearchParams(window.location.search);
 
